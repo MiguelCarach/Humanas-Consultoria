@@ -1,33 +1,76 @@
 import React from 'react';
+import { Header, Content, Container } from './styles';
+import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet';
 
-import { Container } from './styles';
+import logo from '../../assets/Logo.svg';
 
-import logo from '../../assets/logo.svg';
+import Sobre from '../../components/Sobre';
+import Clientes from '../../components/Clientes';
+import Serviços from '../../components/Serviços';
+import Serviço1 from '../../components/Serviço1';
+import Serviço2 from '../../components/Serviço2';
+import Serviço3 from '../../components/Serviço3';
+import Serviço4 from '../../components/Serviço4';
+import Serviço5 from '../../components/Serviço5';
+import Serviço6 from '../../components/Serviço6';
+import Contato from '../../components/Contato';
+import Button from '../../components/Button';
 
 export default function Home() {
   return (
     <>
       <Helmet>
         <title>
-          Agência Ade! Publicidade e Propaganda em Ponta Grossa - PR
+          Humanas Consultoria! Gestão Desenvolvimento  Solução em Ponta Grossa - PR
         </title>
-        <meta
-          name="description"
-          content="Agência de Publicidade e Propaganda em Ponta Grossa - PR. Criação de marca, campanha, site, impresso, facebook, identidade visual, logo"
-        />
-        <meta
-          name="keywords"
-          content="marca, campanha, site, impresso, facebook, identidade visual, logo"
-        />
-        <meta
-          property="og:image"
-          content={process.env.PUBLIC_URL + '/screenshot.png'}
-        />
+
       </Helmet>
+      <Header class="menu-principal">
+        <div className="MenuWeb">
+          <div className="Botao">
+            <a href="/" className="Logo">
+              <img src={require("../../assets/Logo.png")} alt="Img" layout="fill" />
+            </a>
+            <nav>
+              <ul>
+                <li>
+                  <a href="/">Inicio</a>
+                </li>
+                <li>
+                  <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                  <a href="#clientes">Clientes</a>
+                </li>
+                <li>
+                  <a href="#serviços">Serviços</a>
+                </li>
+                <li>
+                  <a href="/Contato">Contato</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </Header>
+      <Content>
+        <div class="banner">
+          <h3>Gestão</h3>
+          <h4>Desenvolvimento</h4>
+          <h3>Solução</h3>
+          <Link to="#sobre">
+            <Button>Saiba mais</Button>
+          </Link>
+        </div>
+      </Content>
       <Container>
-        <img src={logo} width="200px" alt="Agência Ade!" />
+        <img src={logo} width="115%" alt="Humanas Consultoria!" />
       </Container>
+      <Sobre></Sobre>
+      <Clientes></Clientes>
+
+      <Contato></Contato>
     </>
   );
 }
