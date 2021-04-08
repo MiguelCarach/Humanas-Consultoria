@@ -30,7 +30,7 @@ background-color: #FBF7EA;
       height: 100px;
       position: relative;
       div {
-        image {
+        img {
           object-fit: contain;
         }
       }
@@ -108,10 +108,5 @@ background-color: #FBF7EA;
   animation: moveBanner 1s 0.5s forwards;
 }
 
-  img {
-    img-aling:left;
-    display: block;
-    margin: 0 auto;
-  }
 
 `;

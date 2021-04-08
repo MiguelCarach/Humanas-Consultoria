@@ -9,13 +9,6 @@ export const Content = styled.div`
     text-align: center;
     color: #C02F11;
   }
-  img {
-    width:265px;
-    height:221px;
-    img-aling:left
-    display: block;
-    margin: 0 auto;
-  }
   #caixa1{
     border-radius: 10px;
     position:absolute;

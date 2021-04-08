@@ -14,64 +14,64 @@ export const Content = styled.div`
       .imagem1{
         background-color: #FBF7EA;
         height: 100%;
-        margin: 25% auto auto 8%;
+        margin: 60% auto auto 16%;
       }
     .imagem2{
       background-color: #FBF7EA;
         height: 100%;
-        margin: 3% auto auto 40%;
+        margin: 20% auto auto 16%;
 
       }
           }
   }
 
-  sessao-2 {
+  .sessao-2 {
     background-color: #FBF7EA;
     height: 100%;
     .imagens{
       .imagem1{
         background-color: #FBF7EA;
         height: 100%;
-        margin: 25% auto auto 8%;
+        margin: 68% auto auto 16%;
       }
     .imagem2{
       background-color: #FBF7EA;
         height: 100%;
-        margin: 3% auto auto 40%;
+        margin: 40% auto auto 16%;
 
       }
           }
   }
-  sessao-3 {
+  .sessao-3 {
     background-color: #FBF7EA;
     height: 100%;
     .imagens{
       .imagem1{
         background-color: #FBF7EA;
         height: 100%;
-        margin: 25% auto auto 8%;
+        margin: 64% auto auto 4%;
       }
     .imagem2{
       background-color: #FBF7EA;
         height: 100%;
-        margin: 3% auto auto 40%;
+        margin: 44.5% auto auto 2.5%;
 
       }
           }
   }
-  sessao-4 {
+  .sessao-4 {
     background-color: #FBF7EA;
     height: 100%;
     .imagens{
       .imagem1{
         background-color: #FBF7EA;
         height: 100%;
-        margin: 25% auto auto 8%;
+        margin: 40% auto auto 8%;
       }
     .imagem2{
       background-color: #FBF7EA;
         height: 100%;
-        margin: 3% auto auto 40%;
+        margin: -9% auto auto -15%;
 
       }
           }
