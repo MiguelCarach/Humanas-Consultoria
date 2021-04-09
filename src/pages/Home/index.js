@@ -69,7 +69,7 @@ export default function Home() {
       </Container>
       <Sobre></Sobre>
       <Clientes></Clientes>
-
+      <Serviços></Serviços>
       <Contato></Contato>
     </>
   );
