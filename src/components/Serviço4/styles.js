@@ -101,6 +101,8 @@ export const Content = styled.div`
       justify-content: center;
     }
     .sessao-conteudo h1 {
+      font-family:"Nunito",sans-serif;
+      font-weight:600;
       margin: 16% auto auto 2%;
       font-size: 2.5rem;
       color: #2E2E2E;
@@ -108,6 +110,8 @@ export const Content = styled.div`
       margin-bottom: 15px;
     }
     .sessao-conteudo p {
+      font-family:"Rubik",sans-serif;
+      font-weight:400;
       font-size: 1.5rem;
       margin: 10% auto auto 4%;
       color: #2E2E2E;
@@ -115,11 +119,13 @@ export const Content = styled.div`
 
     }
     .sessao-HumanasConsultoria h3 {
+      font-family:"Rubik",sans-serif;
+      font-weight:400;
       align-items: center;
       font-size: 1rem;
       color: #2E2E2E;
       padding-right: 20rem;
-      margin: 25.5% auto auto 4%;
+      margin: 22% auto auto 4%;
     }
 
   }

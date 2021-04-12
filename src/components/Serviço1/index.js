@@ -16,16 +16,16 @@ export default function Serviço1() {
                   <a href="/">Inicio</a>
                 </li>
                 <li>
-                  <a href="#sobre">Sobre</a>
+                  <a href="/#sobre">Sobre</a>
                 </li>
                 <li>
-                  <a href="#clientes">Clientes</a>
+                  <a href="/#clientes">Clientes</a>
                 </li>
                 <li>
-                  <a href="#serviços">Serviços</a>
+                  <a href="/#serviços">Serviços</a>
                 </li>
                 <li>
-                  <a href="/Contato">Contato</a>
+                  <a href="/#contato">Contato</a>
                 </li>
               </ul>
             </nav>

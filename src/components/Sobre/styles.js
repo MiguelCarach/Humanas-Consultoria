@@ -37,12 +37,16 @@ export const Content = styled.div`
       justify-content: center;
     }
     .sessao-conteudo h1 {
+      font-family:"Nunito",sans-serif;
+      font-weight:400;
       font-size: 2.5rem;
       color: #2E2E2E;
       border-bottom: solid 3px #2E2E2E;
       margin-bottom: 8px;
     }
     .sessao-conteudo p {
+      font-family:"Rubik",sans-serif;
+      font-weight:400;
       font-size: 1.5rem;
       color: #2E2E2E;
       margin-top: 8px;
@@ -50,6 +54,8 @@ export const Content = styled.div`
       justify-content: center;
     }
     .sessao-missão h3 {
+      font-family:"Rubik",sans-serif;
+      font-weight:500;
       align-items: center;
       margin-bottom: 8px;
       font-size: 2rem;
@@ -58,6 +64,8 @@ export const Content = styled.div`
       margin: 13% auto auto 8%;
     }
     .sessao-missão p {
+      font-family:"Rubik",sans-serif;
+      font-weight:400;
       justify-content: center;
       font-size: 1.5rem;
       margin-top: 8px;

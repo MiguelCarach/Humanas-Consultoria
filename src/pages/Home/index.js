@@ -8,12 +8,6 @@ import logo from '../../assets/Logo.svg';
 import Sobre from '../../components/Sobre';
 import Clientes from '../../components/Clientes';
 import Serviços from '../../components/Serviços';
-import Serviço1 from '../../components/Serviço1';
-import Serviço2 from '../../components/Serviço2';
-import Serviço3 from '../../components/Serviço3';
-import Serviço4 from '../../components/Serviço4';
-import Serviço5 from '../../components/Serviço5';
-import Serviço6 from '../../components/Serviço6';
 import Contato from '../../components/Contato';
 import Button from '../../components/Button';
 
@@ -47,7 +41,7 @@ export default function Home() {
                   <a href="#serviços">Serviços</a>
                 </li>
                 <li>
-                  <a href="/Contato">Contato</a>
+                  <a href="#contato">Contato</a>
                 </li>
               </ul>
             </nav>
@@ -70,7 +64,7 @@ export default function Home() {
       <Sobre></Sobre>
       <Clientes></Clientes>
       <Serviços></Serviços>
-      <Contato></Contato>
+      {/* <Contato></Contato> */}
     </>
   );
 }

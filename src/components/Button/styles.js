@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
-const StyledButton = styled.button `
+const StyledButton = styled.button`
+  font-family:"Rubik",sans-serif;
+  font-weight:400;
   border: none;
   padding: 10px 20px;
   background-color: #C02F11;
