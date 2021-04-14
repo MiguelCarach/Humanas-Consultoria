@@ -38,7 +38,7 @@ export const Container = styled.div`
 
       h3 {
         color: #2E2E2E;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         margin: 16px 0px;
       }
 
@@ -51,6 +51,7 @@ export const Container = styled.div`
         text-align: center;
 
         a {
+          font-size: 1.2rem;
           text-decoration: none;
           color: #717171;
           line-height: 2rem;

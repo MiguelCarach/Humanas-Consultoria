@@ -51,7 +51,6 @@ export const Content = styled.div`
         width: 100%;
         height: 100%;
      ul {
-
         margin: -19% auto auto 8%;
         padding-right: 36rem;
         li {

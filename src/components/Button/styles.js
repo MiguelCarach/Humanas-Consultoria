@@ -10,8 +10,6 @@ const StyledButton = styled.button`
   color: #FFFFFF;
   text-transform: uppercase;
   margin-right: 15px;
-  font-family: 'AkzindenzGroteskBE';
-  font-weight: bold;
   font-size: 1.1rem;
   line-height: 1rem;
   padding-top: 13px;

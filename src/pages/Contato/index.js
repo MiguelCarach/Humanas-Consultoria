@@ -9,7 +9,8 @@ import Header from '../../components/Header';
 import { Container } from './styles';
 
 function Contato() {
-  const [disabledButton, setdisabledButton] = useState(false);
+  // const [disabledButton, setdisabledButton] = useState(false);
+  const [setdisabledButton] = useState(false);
 
   const formik = useFormik({
     initialValues: {
@@ -29,22 +30,22 @@ function Contato() {
     }),
 
     onSubmit: async (values, { resetForm }) => {
-      const body = `
-                            <p>Nome: ${values.nome}</p>
-                            <p>E-mail: ${values.email}</p>
-                            <p>Telefone: ${values.telefone}</p>
-                            <p>Mensagem: ${values.mensagem}</p>
-                          `;
+      // const body = `
+      //                       <p>Nome: ${values.nome}</p>
+      //                       <p>E-mail: ${values.email}</p>
+      //                       <p>Telefone: ${values.telefone}</p>
+      //                       <p>Mensagem: ${values.mensagem}</p>
+      //                     `;
 
-      const mail = {
-        // to: "email@cliente.com.br",
-        to: "dsiemieniaco@hotmail.com",
-        from: values.email,
-        as: values.nome,
-        // bcc: JSON.stringify(["web@agenciaade.com.br"]),
-        subject: "Novo cadastro via site - Nome do site",
-        message: body,
-      };
+      // const mail = {
+      //   // to: "email@cliente.com.br",
+      //   to: "",
+      //   from: values.email,
+      //   as: values.nome,
+      //   // bcc: JSON.stringify(["web@agenciaade.com.br"]),
+      //   subject: "Novo cadastro via site - Nome do site",
+      //   message: body,
+      // };
 
       try {
         setdisabledButton(true);
