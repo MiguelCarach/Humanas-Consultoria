@@ -1,16 +1,19 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  padding-top: 100px;
   font-family:"Nunito",sans-serif;
   font-weight:600;
   width:100%;
-  height: 100%;
   display:flex;
   background-color: #FBF7EA;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  .conteudo{
+
+  span {
+    font-size: 2rem;
+    font-weight: 400px;
     justify-content: center;
     background-color: #FBF7EA;
     border-bottom: solid 3px #2E2E2E;
@@ -19,35 +22,54 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
+  padding-top: 30px;
+  padding-bottom: 100px;
   width:100%;
-  height: 100%;
   background-color: #FBF7EA;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+
   align-items: center;
-  justify-content: center;
-  .sessao {
-    width:100%;
-    height: 100%;
-    background-color: #FBF7EA;
-    .sessao-caixa {
-      display: flex;
-      width: 343px;
-      height: 569px;
-      flex-direction:column;
-      align-items: center;
-      justify-content: center;
-      border-radius: 10px;
-      position:absolute;
-      background-color:#5D5D5D;
+  justify-items: center;
+
+  .card {
+    min-width: 340px;
+    width: 70%;
+    min-height: 570px;
+    height: 90%;
+    border-radius: 15px;
+    margin: 30px;
+    background: #D7D4C9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    img {
+      width: 250px;
+      height: 250px;
+      object-fit: contain;
+      object-position: center;
+      /* padding-bottom: 16px; */
     }
-    .sessao-caixa h1 {
-      font-family:"Rubik",sans-serif;
-      font-weight:400;
-      /* margin: 16% auto auto 2%; */
-      font-size: 2.5rem;
+    .line{
+      content:"";
+      height:2px;
+      width:70%;
+      background-color:#C02F11;
+    }
+
+    h1 {
+      font-size: 1.5rem;
       color: #C02F11;
-      border-bottom: solid 3px #C02F11;
-      margin-bottom: 15px;
+      margin: 8px 0px;
+      text-align: center;
+
+    }
+
+    a {
+      text-decoration: none;
     }
   }
 

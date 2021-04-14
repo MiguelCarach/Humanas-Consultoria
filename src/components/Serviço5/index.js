@@ -10,7 +10,7 @@ export default function Serviço5() {
         <section class="sessao-1" id="serviço5">
           <div class="imagens">
             <div class="imagem1">
-              <img src={require("../../assets/Servico_6.png")} alt="1" width="280" height="320" />
+              <img src={require("../../assets/Servico_5.png")} alt="Servico_5" />
             </div>
           </div>
         </section>

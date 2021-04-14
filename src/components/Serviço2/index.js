@@ -6,16 +6,16 @@ export default function Serviço2() {
   return (
     <>
       <Header />
-      <Content>
-        <section class="sessao-1" id="serviço2">
+      <Content id="serviço2">
+        <section class="sessao-1" >
           <div class="imagens">
             <div class="imagem1">
-              <img src={require("../../assets/Servico_2.png")} alt="1" width="590" height="340" />
+              <img src={require("../../assets/Servico_2.png")} alt="Servico_2" />
             </div>
           </div>
         </section>
 
-        <section class="sessao-2" id="serviço2">
+        <section class="sessao-2" >
           <div class="conteudo">
             <div class="sessao-conteudo">
               <h1>Treinamentos Personalizados</h1>

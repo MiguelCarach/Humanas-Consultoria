@@ -37,7 +37,7 @@ export default function Home() {
       </Container>
       <Sobre />
       <Clientes />
-      {/* <Serviços /> */}
+      <Serviços />
       <Contato />
       <Footer>
         <span>Humanas Consultoria ® Todos os direitos reservados.</span>
