@@ -14,8 +14,6 @@ export default function Sobre() {
               <img src={require("../../assets/2.png")} alt="2" />
             </div>
           </div>
-
-
         </section>
 
         <section class="sessao-2">

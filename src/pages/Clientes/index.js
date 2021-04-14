@@ -46,7 +46,6 @@ export default function Clientes() {
           </section>
         </Content>
       </Container>
-
     </>
   );
 }

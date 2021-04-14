@@ -3,13 +3,13 @@ import { Content, Container, Footer } from './styles';
 
 import { Helmet } from 'react-helmet';
 
-// import logo from '../../assets/Logo.svg';
+import logo from '../../assets/Logo.svg';
 
 import Header from '../../components/Header';
 
-import Sobre from '../../components/Sobre';
-import Clientes from '../../components/Clientes';
-import Serviços from '../../components/Serviços';
+import Sobre from '../Sobre';
+import Clientes from '../Clientes';
+import Serviços from '../Serviços';
 import Contato from '../Contato';
 import Button from '../../components/Button';
 
@@ -20,7 +20,6 @@ export default function Home() {
         <title>
           Humanas Consultoria! Gestão Desenvolvimento  Solução em Ponta Grossa - PR
         </title>
-
       </Helmet>
       <Header />
       <Content>
@@ -34,7 +33,7 @@ export default function Home() {
         </div>
       </Content>
       <Container>
-        {/* <img src={logo} width="115%" alt="Humanas Consultoria!" /> */}
+        <img src={logo} width="115%" alt="Humanas Consultoria!" />
       </Container>
       <Sobre />
       <Clientes />
