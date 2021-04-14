@@ -1,6 +1,6 @@
 import React from 'react';
 import { Content, Container, Footer } from './styles';
-import { Link } from 'react-router-dom'
+
 import { Helmet } from 'react-helmet';
 
 // import logo from '../../assets/Logo.svg';
@@ -28,9 +28,9 @@ export default function Home() {
           <h3>Gestão</h3>
           <h4>Desenvolvimento</h4>
           <h3>Solução</h3>
-          <Link to="#sobre">
+          <a href="#sobre">
             <Button>Saiba mais</Button>
-          </Link>
+          </a>
         </div>
       </Content>
       <Container>

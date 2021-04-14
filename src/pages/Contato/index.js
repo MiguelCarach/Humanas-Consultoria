@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import {useFormik} from 'formik';
+import { useFormik } from 'formik';
 import * as Yup from "yup";
 import { notification } from "antd";
 
@@ -75,7 +75,7 @@ function Contato() {
   return (
     <>
       <Header />
-      <Container  id="contato">
+      <Container id="contato">
         <div className="contact-container">
           <h2>Contato</h2>
           <div className="contact-body">
@@ -108,11 +108,11 @@ function Contato() {
                 />
                 {formik.touched.nome && formik.errors.nome ? (
                   <>
-                  <span>{formik.errors.nome}</span>
+                    <span>{formik.errors.nome}</span>
                   </>
                 ) : null}
 
-                 <input
+                <input
                   type="email"
                   name="email"
                   placeholder="Email"
@@ -122,11 +122,11 @@ function Contato() {
                 />
                 {formik.touched.email && formik.errors.email ? (
                   <>
-                  <span>{formik.errors.email}</span>
+                    <span>{formik.errors.email}</span>
                   </>
                 ) : null}
 
-                 <input
+                <input
                   type="number"
                   name="telefone"
                   placeholder="Telefone"
@@ -136,11 +136,11 @@ function Contato() {
                 />
                 {formik.touched.telefone && formik.errors.telefone ? (
                   <>
-                  <span>{formik.errors.telefone}</span>
+                    <span>{formik.errors.telefone}</span>
                   </>
                 ) : null}
 
-                 <textarea
+                <textarea
                   type="text"
                   name="mensagem"
                   placeholder="Digite uma mensagem..."
@@ -150,7 +150,7 @@ function Contato() {
                 />
                 {formik.touched.mensagem && formik.errors.mensagem ? (
                   <>
-                  <span>{formik.errors.mensagem}</span>
+                    <span>{formik.errors.mensagem}</span>
                   </>
                 ) : null}
 

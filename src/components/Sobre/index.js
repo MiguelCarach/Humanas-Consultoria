@@ -4,8 +4,8 @@ import { Content } from './styles';
 export default function Sobre() {
   return (
     <>
-      <Content>
-        <section class="sessao-1" id="sobre">
+      <Content id="sobre">
+        <section class="sessao-1" >
           <div class="imagens">
             <div class="imagem1">
               <img src={require("../../assets/1.png")} alt="1" />
@@ -18,7 +18,7 @@ export default function Sobre() {
 
         </section>
 
-        <section class="sessao-2" id="sobre">
+        <section class="sessao-2">
           <div class="conteudo">
             <div class="sessao-conteudo">
               <h1>Sobre</h1>
