@@ -14,5 +14,5 @@ const StyledButton = styled.button`
   line-height: 1rem;
   padding-top: 13px;
   cursor: point;
-`
-export default StyledButton
+`;
+export default StyledButton;
