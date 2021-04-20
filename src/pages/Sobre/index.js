@@ -1,6 +1,8 @@
 import React from 'react';
 import { Content } from './styles';
 
+//Projeto Humanas - Sobre
+
 export default function Sobre() {
   return (
     <>
