@@ -2,7 +2,7 @@ import React from 'react';
 import { Content, Container, Footer } from './styles';
 import { Helmet } from 'react-helmet';
 
-import logo from '../../assets/Logo.svg';
+// import logo from '../../assets/Logo.svg';
 
 import Header from '../../components/Header';
 
@@ -32,7 +32,7 @@ export default function Home() {
         </div>
       </Content>
       <Container>
-        <img src={logo} width="115%" alt="Humanas Consultoria!" />
+        {/* <img src={logo} width="115%" alt="Humanas Consultoria!" /> */}
       </Container>
       <Sobre />
       <Clientes />
