@@ -33,6 +33,7 @@ export default function Home() {
       </Content>
       <Container>
         {/* <img src={logo} width="115%" alt="Humanas Consultoria!" /> */}
+        <img src={require("../../assets/Logo_2.png")} alt="Humanas Consultoria!" />
       </Container>
       <Sobre />
       <Clientes />

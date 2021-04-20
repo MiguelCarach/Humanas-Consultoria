@@ -8,6 +8,11 @@ export const Container = styled.div`
   justify-content: center;
   overflow: hidden;
   background-color: #fbf7ea;
+  img{
+    display: flex;
+    object-fit: cover;
+    object-position: -60px 75px;
+  }
 `;
 
 export const Content = styled.div`
