@@ -1,6 +1,5 @@
 import React from 'react';
 import { Content, Container, Footer } from './styles';
-
 import { Helmet } from 'react-helmet';
 
 import logo from '../../assets/Logo.svg';
