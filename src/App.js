@@ -7,8 +7,8 @@ import GlobalStyle from './styles/global';
 import Routes from './routes';
 import history from './services/history';
 
-import { initGA } from './utils/googleAnalytics';
-initGA();
+
+
 
 function App() {
   return (

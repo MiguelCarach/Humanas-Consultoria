@@ -42,4 +42,4 @@ export default function Serviço6() {
       </Content>
     </>
   );
-}
+};

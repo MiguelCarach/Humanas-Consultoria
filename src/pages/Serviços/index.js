@@ -71,4 +71,4 @@ export default function Serviços() {
       </Container>
     </>
   );
-}
+};

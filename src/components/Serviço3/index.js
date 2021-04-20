@@ -39,4 +39,4 @@ export default function Serviço3() {
       </Content>
     </>
   );
-}
+};
