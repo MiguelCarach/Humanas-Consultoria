@@ -89,8 +89,8 @@ function Contato() {
               </a>
 
               <h3>Telefone</h3>
-              <a href="tel:+5542999701416" target="_blank" rel="noopener noreferrer">
-                (42) 9 9970-1416
+              <a href="tel:+5542991211416" target="_blank" rel="noopener noreferrer">
+                (42) 9 9121-1416
               </a>
             </div>
 
